@@ -1,5 +1,6 @@
 resource "null_resource" "example" {
- triggers = {
+count = 1001
+triggers = {
    uuid = uuid()
  }
 
