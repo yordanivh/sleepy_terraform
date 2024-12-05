@@ -5,7 +5,7 @@ count = 100002
  }
 
  provisioner "local-exec" {
-   command = "sleep 60"
+   command = "sleep 610"
  }
 
 }
